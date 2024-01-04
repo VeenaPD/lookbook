@@ -4,12 +4,12 @@
     "buttons": [
       {
         "text": "Home",
-        "url": "/home",
+        "url": "/",
         "icon": "home"
       },
       {
         "text": "Mentorship",
-        "url": "/mentorship",
+        "url": "mentorship",
         "icon": "people"
       }
     ]

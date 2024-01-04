@@ -22,7 +22,7 @@
       class="btn-style"
       mat-stroked-button
       color="primary"
-      href="/project/{{ projectItem.id }}"
+      [routerLink]="['project', projectItem.id]"
       *ngIf="projectItem.status !== 'In Development'"
     >
       <mat-icon>open_in_new</mat-icon> Know More

@@ -22,7 +22,7 @@
       class="btn-style"
       mat-raised-button
       color="accent"
-      href="{{ bannerData.buttonUrl2 }}"
+      [routerLink]="[bannerData.buttonUrl2]"
       ><mat-icon> {{ bannerData.buttonIcon2 }} </mat-icon>
       {{ bannerData.buttonText2 }}</a
     >

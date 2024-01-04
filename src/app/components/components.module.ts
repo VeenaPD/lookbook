@@ -25,6 +25,7 @@ import { AnimatedBgRightComponent } from './animated-bg-right/animated-bg-right.
     declarations: [HeaderComponent, FooterComponent, BannerComponent, ProposalComponent, AboutComponent, SkillComponent, ProjectListItemComponent, TestimonialComponent, CalloutComponent, AnimatedBgComponent, AnimatedBgRightComponent],
     imports: [
         CommonModule,
+        RouterModule,
         MatToolbarModule,
         MatButtonModule,
         MatIconModule,

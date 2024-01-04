@@ -6,7 +6,7 @@
     "buttonUrl1": "https://www.linkedin.com/in/veena-pd/",
     "buttonIcon1": "handshake",
     "buttonText2": "Mentorship",
-    "buttonUrl2": "/mentorship",
+    "buttonUrl2": "mentorship",
     "buttonIcon2": "people"
   },
   "introData": {
@@ -58,7 +58,7 @@
   "portfolioProjectsData": [
     {
       "id": "10",
-      "image": "../../assets/projects/10.png",
+      "image": "assets/projects/10.png",
       "category": "apps",
       "name": "E-commerce Platform",
       "shortDescription": "A responsive and feature-rich e-commerce platform",
@@ -68,7 +68,7 @@
     },
     {
       "id": "1",
-      "image": "../../assets/projects/9.png",
+      "image": "assets/projects/9.png",
       "category": "apps",
       "name": "Event Management Suit",
       "shortDescription": "Event Management Suit for both Web and Mobile apps",
@@ -78,7 +78,7 @@
     },
     {
       "id": "9",
-      "image": "../../assets/projects/7.png",
+      "image": "assets/projects/7.png",
       "category": "websites",
       "name": "the FutureList",
       "shortDescription": "To spotlight and connect groundbreaking tech startups, exceptional talent, strategic capital",
@@ -99,7 +99,7 @@
     },
     {
       "id": "8",
-      "image": "../../assets/projects/6.png",
+      "image": "assets/projects/6.png",
       "category": "apps",
       "name": "My Liberty PR & My Flow Self Care",
       "shortDescription": "Telecommunication Self service app end users of the Jamaica & Puerto Rico region",
@@ -125,7 +125,7 @@
     },
     {
       "id": "6",
-      "image": "../../assets/projects/4.png",
+      "image": "assets/projects/4.png",
       "category": "apps",
       "name": "Navio",
       "shortDescription": "Competitive Non Vessel Owning Common Carrier with International Freight Forwarding service",
@@ -137,7 +137,7 @@
     },
     {
       "id": "7",
-      "image": "../../assets/projects/5.png",
+      "image": "assets/projects/5.png",
       "category": "websites",
       "name": "Liberty PR",
       "shortDescription": "Telecommunication service marketing app for the Puerto Rico region",
@@ -158,7 +158,7 @@
     },
     {
       "id": "3",
-      "image": "../../assets/projects/1.png",
+      "image": "assets/projects/1.png",
       "category": "websites",
       "name": "Kalanjiam",
       "shortDescription": "Online Retail Hardware Store",
@@ -178,7 +178,7 @@
     },
     {
       "id": "4",
-      "image": "../../assets/projects/2.png",
+      "image": "assets/projects/2.png",
       "category": "websites",
       "name": "LiberPay",
       "shortDescription": "Making Payments Simple",
@@ -190,7 +190,7 @@
     },
     {
       "id": "5",
-      "image": "../../assets/projects/3.png",
+      "image": "assets/projects/3.png",
       "category": "websites",
       "name": "Primed Pharmacy",
       "shortDescription": "Online Aesthetics Pharmacy for Weight Loss, Obesity & Diabetes and Aesthetics related medicines",
@@ -202,7 +202,7 @@
     },
     {
       "id": "2",
-      "image": "../../assets/projects/8.png",
+      "image": "assets/projects/8.png",
       "category": "apps",
       "name": "Stoodo",
       "shortDescription": "Teachers and Students collaboration app for Web, Android and iOS platforms",
@@ -279,7 +279,7 @@
   "extracurricularData": [
     {
       "id": "1",
-      "image": "../../assets/youtube-channel.png",
+      "image": "assets/youtube-channel.png",
       "name": "Youtube Channel",
       "shortDescription": "Youtube: Dive deep into the core technologies of web development and hybrid app development",
       "url": "https://www.youtube.com/channel/UC_G9-X8CcOB5Yt6t4XsZyGw",
@@ -287,7 +287,7 @@
     },
     {
       "id": "2",
-      "image": "../../assets/blog.png",
+      "image": "assets/blog.png",
       "name": "Blog",
       "shortDescription": "Blog: Covers diverse topics to cater to tech enthusiasts, professionals, and novices alike",
       "url": "https://medium.com/@veenapd",
@@ -295,7 +295,7 @@
     },
     {
       "id": "3",
-      "image": "../../assets/veenslibrary.png",
+      "image": "assets/veenslibrary.png",
       "name": "Veens Library",
       "shortDescription": "Veens Library: A transformative reading of self-help books, embracing growth through books",
       "url": "https://www.instagram.com/veenslibrary/",

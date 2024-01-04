@@ -5,7 +5,7 @@
     *ngFor="let button of headerData.buttons"
     mat-flat-button
     color="primary"
-    href="{{ button.url }}"
+    [routerLink]="[button.url]"
   >
     <mat-icon> {{ button.icon }} </mat-icon>
     {{ button.text }}
