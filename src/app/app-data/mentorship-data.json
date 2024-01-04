@@ -1,0 +1,122 @@
+{
+  "bannerData": {
+    "title": "Embark on a Journey of Skill Enhancement with Full Stack and Hybrid App Development Expertise",
+    "subtitle": "Tailored Mentorship with a Friendly Touch",
+    "buttonText1": "Connect with LinkedIn",
+    "buttonUrl1": "https://www.linkedin.com/in/veena-pd/",
+    "buttonIcon1": "handshake",
+    "buttonText2": "Consultant/Freelancer",
+    "buttonUrl2": "/home",
+    "buttonIcon2": "home"
+  },
+  "introData": {
+    "title": "Navigating the developer's world can be a formidable challenge",
+    "subtitle": "Every day in the world of development brings a new framework, programming language, and an avalanche of coding challenges. It's a dynamic landscape that can feel both exhilarating and overwhelming. I understand this journey all too well, having navigated through the ever-evolving tech terrain. Whether you're a newcomer eager to embark on this coding adventure or an experienced developer seeking guidance and camaraderie, rest assured, I've been there too, and I'm here to assist you every step of the way"
+  },
+  "skillsData": [
+    {
+      "title": "Spot Mentoring",
+      "list": [
+        "1 hour of 1:1 call. Advice as needed packed with actionable & practical tips to move past any momentary blocks and ace your next goals"
+      ],
+      "button": {
+        "text": "Book a session",
+        "url": "https://topmate.io/veena_pd"
+      }
+    },
+    {
+      "title": "Production Support",
+      "list": [
+        "Get expert guidance not just during learning but also when you're implementing your knowledge in real projects, ensuring success."
+      ],
+      "button": {
+        "text": "Improve your chops",
+        "url": "https://topmate.io/veena_pd"
+      }
+    },
+    {
+      "title": "Career Boost",
+      "list": [
+        "Elevate your career prospects with skills that are in high demand, opening up new opportunities in the ever-evolving tech industry."
+      ],
+      "button": {
+        "text": "Start your journey",
+        "url": "https://topmate.io/veena_pd"
+      }
+    }
+  ],
+  "portfolioIntroData": {
+    "title": "My Mentoring Style & Benefits",
+    "subtitle": "I strive to function as a catalyst and challenge you to grow as both a developer and a human. I care about the details and will encourage you to think, plan, and dream. These are the qualities I will bring to every conversation."
+  },
+  "portfolioData": [
+    {
+      "icon": "handyman",
+      "title": "Comprehensive Training",
+      "shortDescription": "Gain expertise in the latest tools and frameworks essential for Full Stack Development and Hybrid App projects."
+    },
+    {
+      "icon": "diversity_2",
+      "title": "Friendly Mentorship",
+      "shortDescription": "Experience mentoring that goes beyond just code. Our friendly approach creates a supportive environment, making learning enjoyable."
+    },
+    {
+      "icon": "engineering",
+      "title": "Project-Based Learning",
+      "shortDescription": "Dive into real-world projects that provide hands-on experience, bridging the gap between theory and practical application."
+    },
+    {
+      "icon": "edit_calendar",
+      "title": "Flexible Learning Schedule",
+      "shortDescription": "Learn at your own pace with a flexible schedule, allowing you to balance your current commitments while upskilling."
+    },
+    {
+      "icon": "content_cut",
+      "title": "Tailored Learning",
+      "shortDescription": "Tailored guidance that adapts to your pace, ensuring a personalized learning journey that suits your unique needs."
+    },
+    {
+      "icon": "diversity_3",
+      "title": "Upskilling Culture",
+      "shortDescription": "Join a community that values continuous learning, where upskilling is not just a journey but a way of life."
+    }
+  ],
+  "testimonialsIntroData": {
+    "title": "Happy Mentees",
+    "subtitle": "Don't take my word for it when you can take theirs..."
+  },
+  "testimonialsData": [
+    {
+      "author": "Karthik",
+      "jobTitle": "",
+      "testimonial": "Veena has been such an inspiration to me! Her talks about career and life have been super practical, encouraging and straight to the point. She's helped me understand things so much better. Thank you, Veena, for your amazing guidance."
+    },
+    {
+      "author": "Vinay Kumar NR",
+      "jobTitle": "",
+      "testimonial": "Veena is an amazing mentor. she was well prepared and helped me understand the different options available for my personal growth. I wish I could have done a session sooner with her.. it was really helpful and thank you so much."
+    },
+    {
+      "author": "K C Santosh",
+      "jobTitle": "",
+      "testimonial": "Veena has had a profound impact on my life. Her insights into both career and life have been refreshingly practical, uplifting, and incredibly straightforward. Her guidance has brought me valuable clarity and understanding. I'm deeply grateful to Veena for the invaluable wisdom she shares.   "
+    }
+  ],
+  "proposalItemData": {
+    "title": "Book a consult",
+    "subtitle": "Thinking about mentorship? Let's talk about it. The first call is on me.",
+    "buttonText1": "Block my Calendar",
+    "buttonUrl1": "https://topmate.io/veena_pd/",
+    "buttonIcon1": "handshake",
+    "buttonText2": "Send an Email",
+    "buttonUrl2": "mailto:vpd.careers@gmail.com",
+    "buttonIcon2": "mail"
+  },
+  "calloutData": {
+    "title": "If you're wanting to level up, mentorship helps.",
+    "subtitle": "Schedule a consultation to ask questions, discuss details, and decide if it's a fit.",
+    "buttonText": "Introduce Yourself",
+    "buttonUrl": "https://topmate.io/veena_pd/579250",
+    "buttonIcon": "waving_hand"
+  }
+}

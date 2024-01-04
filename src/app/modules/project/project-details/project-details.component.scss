@@ -1,0 +1,44 @@
+.wrapper {
+  margin: 0% 25%;
+}
+.image-wrapper {
+  text-align: center;
+  img {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
+
+.text-wrapper {
+    padding: 5% 0%;
+}
+
+.title {
+  font-weight: 900;
+  font-size: calc(24px + 3 * (100vw - 300px) / 1620);
+  padding: 7% 0% 1%;
+}
+
+.desc {
+  font-size: calc(16px + 3 * (100vw - 300px) / 1620);
+  padding: 1% 0%;
+}
+
+.desc-chips {
+    padding: 0% 0% 10%;
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .wrapper {
+    margin: 0%;
+  }
+  .text-wrapper {
+    padding: 2rem;
+}
+}
+
+/* Large devices such as laptops (1024px and up) until Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+}

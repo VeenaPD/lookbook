@@ -1,0 +1,305 @@
+{
+  "bannerData": {
+    "title": "Full Stack Web and Cross-Platform Apps Developer, Consultant & Mentor",
+    "subtitle": "Transforming Visions Into Digital Realities",
+    "buttonText1": "Connect with LinkedIn",
+    "buttonUrl1": "https://www.linkedin.com/in/veena-pd/",
+    "buttonIcon1": "handshake",
+    "buttonText2": "Mentorship",
+    "buttonUrl2": "/mentorship",
+    "buttonIcon2": "people"
+  },
+  "introData": {
+    "title": "Hi, I’m Veena. Nice to meet you.",
+    "subtitle": "I have a 7+ Years of Diverse Expertise in Web and Mobile applications development. Across E-commerce, Ed-tech, Fin-tech, Telecom, and Medical Domains... Worked on latest tools and technologies mentioned below, various CMS and third party integrations and much more."
+  },
+  "skillsData": [
+    {
+      "title": "Frontend",
+      "list": [
+        "Angular",
+        "Ionic",
+        "React",
+        "React Native",
+        "Vue JS",
+        "Ngrx/Redux",
+        "HTML 5/CSS 3"
+      ]
+    },
+    {
+      "title": "Backend",
+      "list": [
+        "Node JS/Express JS",
+        "Nest JS",
+        "Mongo DB",
+        "MySQL/Postgres",
+        "Redis",
+        "Websocket",
+        "RESTfulAPI/GraphQL"
+      ]
+    },
+    {
+      "title": "Others",
+      "list": [
+        "Cloud Platforms",
+        "Docker/k8's",
+        "Firebase",
+        "Google Analytics/Quantummetric",
+        "Twilio",
+        "Send Grid",
+        "Ghost/Wordpress/Wix"
+      ]
+    }
+  ],
+  "portfolioIntroData": {
+    "title": "A Glimpse into My Projects and Case Studies",
+    "subtitle": "Each project is a testament to innovation, collaboration, and a commitment to delivering solutions that not only meet but exceed expectations. Join me in unraveling the stories behind these digital triumphs."
+  },
+  "portfolioProjectsData": [
+    {
+      "id": "10",
+      "image": "../../assets/projects/10.png",
+      "category": "apps",
+      "name": "E-commerce Platform",
+      "shortDescription": "A responsive and feature-rich e-commerce platform",
+      "description": "<p>A secure payment gateways, inventory management, and user-friendly interfaces.</p>",
+      "url": "",
+      "status": "In Development"
+    },
+    {
+      "id": "1",
+      "image": "../../assets/projects/9.png",
+      "category": "apps",
+      "name": "Event Management Suit",
+      "shortDescription": "Event Management Suit for both Web and Mobile apps",
+      "description": "<p>Enable users to create and manage events with details like date, location, agenda, and speakers.</p><p>Integrate a ticketing system for event registrations with secure payment options.</p> <p>Include interactive maps for easy navigation within event venues.</p><p>Implement push notifications for event updates, reminders, and important announcements.</p><p>Integrate features for attendees to connect, message, and schedule meetings.</p>",
+      "url": "",
+      "status": "In Development"
+    },
+    {
+      "id": "9",
+      "image": "../../assets/projects/7.png",
+      "category": "websites",
+      "name": "the FutureList",
+      "shortDescription": "To spotlight and connect groundbreaking tech startups, exceptional talent, strategic capital",
+      "description": "<p>Designed and implemented robust app architecture for optimal performance.&nbsp;Emphasized scalable architecture to accommodate future growth. Prioritized performance optimization for a seamless user experience. Leveraged technical expertise to create scalable and efficient solutions.<br />&nbsp;</p><p>Developed aesthetically pleasing and complex UI screens using React. Ensured seamless user experiences through responsive and interactive designs.</p><p>Implemented GraphQL for streamlined data queries, enhancing overall system efficiency.</p>",
+      "techStack": [
+        "React",
+        "Node Js",
+        "GraphQL APIs",
+        "PostgreSQL",
+        "Monorepo Architecture",
+        "Github",
+        "Storybook",
+        "Google Analytics"
+      ],
+      "roles": ["Technical Architect", "Full Stack Developer"],
+      "url": "https://app.thefuturelist.com/",
+      "status": "Live"
+    },
+    {
+      "id": "8",
+      "image": "../../assets/projects/6.png",
+      "category": "apps",
+      "name": "My Liberty PR & My Flow Self Care",
+      "shortDescription": "Telecommunication Self service app end users of the Jamaica & Puerto Rico region",
+      "description": "<p>Developed aesthetically pleasing and intricate UI screens using Ionic Angular. Created robust and scalable RESTful APIs with Node.js to power the backend infrastructure.</p><p>Ensured seamless integration of Firebase Notifications for effective user engagement. Implemented Google Analytics for data-driven insights and performance tracking.</p><p>Collaborated with cross-functional teams to align technical solutions with business goals.</p>",
+      "techStack": [
+        "Ionic",
+        "Angular",
+        "Next Js",
+        "Mongo DB",
+        "RESTful APIs",
+        "Domain Driven Design",
+        "Monorepo Architecture",
+        "Firebase",
+        "Qunatummetric API",
+        "Google Analytics"
+      ],
+      "roles": ["Lead Engineer", "Full Stack Developer"],
+      "url": [
+        "https://play.google.com/store/apps/details?id=com.lime.mylime.android&hl=en&gl=US",
+        "https://play.google.com/store/apps/details?id=com.myliberty.care&hl=en&gl=US"
+      ],
+      "status": "Live"
+    },
+    {
+      "id": "6",
+      "image": "../../assets/projects/4.png",
+      "category": "apps",
+      "name": "Navio",
+      "shortDescription": "Competitive Non Vessel Owning Common Carrier with International Freight Forwarding service",
+      "description": "<p>Successfully developed applications catering to three distinct user bases(Admin, Agents, End Customers). Ensured seamless user experiences through intuitive design and functionality.</p><p>Demonstrated versatility in working with both frontend and backend technologies. Proficient in developing beautiful and complex UI screens. Specialized in utilizing Ionic Angular for building responsive and dynamic user interfaces. Created reusable components for enhanced development efficiency. Developed robust backend APIs using RESTful principles.Utilized Node.js for efficient and scalable server-side development.</p><p>Focused on optimizing both frontend and backend processes for enhanced performance.&nbsp;Applied agile methodologies for efficient project management</p>",
+      "techStack": ["Ionic", "Angular", "Node Js", "My SQL", "Firebase", "Google Analytics"],
+      "roles": ["Tech Lead", "Full Stack Developer"],
+      "url": "https://customer.navio-shipping.com/authentication/login",
+      "status": "Live"
+    },
+    {
+      "id": "7",
+      "image": "../../assets/projects/5.png",
+      "category": "websites",
+      "name": "Liberty PR",
+      "shortDescription": "Telecommunication service marketing app for the Puerto Rico region",
+      "description": "<p>Proficient in utilizing Angular and Bootstrap for creating visually appealing and responsive user interfaces. Specialized in crafting Reactive Forms for seamless user interactions. Created reusable components to optimize UI development and maintenance.&nbsp;Developed RESTful APIs using Node.js, contributing to a robust backend infrastructure.</p><p>Successfully improved application performance, resulting in a smoother user experience.</p><p>Reduced initial loading time, enhancing overall responsiveness and user satisfaction.</p><p>Led initiatives to streamline development processes and enhance overall team efficiency.</p>",
+      "techStack": [
+        "Angular",
+        "Bootstrap",
+        "SCSS",
+        "Node Js",
+        "Mongo DB",
+        "Qunatummetric API",
+        "Google Analytics",
+        "ngnix"
+      ],
+      "roles": [ "Tech Lead", "Full Stack Developer"],
+      "url": "https://www.libertypr.com/es/",
+      "status": "Live"
+    },
+    {
+      "id": "3",
+      "image": "../../assets/projects/1.png",
+      "category": "websites",
+      "name": "Kalanjiam",
+      "shortDescription": "Online Retail Hardware Store",
+      "description": "<p>Developed visually stunning UI screens for enhanced user experience. Utilized Angular for dynamic and responsive interfaces. Employed Bootstrap to ensure consistency and scalability in design.</p><p>Designed and implemented reusable components for efficient development. Fostered modular design to enhance maintainability and reusability.</p><p>Incorporated industry best practices for code quality and maintainability. Implemented a scalable architecture to accommodate growth and future enhancements.</p>",
+      "techStack": [
+        "Angular",
+        "Bootstrap",
+        "CSS",
+        "Material UI",
+        "OAuth Integration",
+        "RESTful APIs",
+        "Google Analytics"
+      ],
+      "roles": [ "Lead Frontend Engineer", "Frontend Developer"],
+      "url": "https://www.kalanjiamhardwares.com/",
+      "status": "Live"
+    },
+    {
+      "id": "4",
+      "image": "../../assets/projects/2.png",
+      "category": "websites",
+      "name": "LiberPay",
+      "shortDescription": "Making Payments Simple",
+      "description": "<p>Developed visually stunning UI screens for enhanced user experience. Utilized Angular for dynamic and responsive interfaces. Employed Bootstrap to ensure consistency and scalability in design.</p><p>Designed and implemented reusable components for efficient development. Fostered modular design to enhance maintainability and reusability.</p><p>Incorporated industry best practices for code quality and maintainability. Implemented a scalable architecture to accommodate growth and future enhancements.</p>",
+      "techStack": ["Angular", "Bootstrap", "SCSS", "RESTful APIs", "Google Analytics"],
+      "roles": ["Lead Frontend Engineer", "Frontend Developer"],
+      "url": "https://angular.io/guide/component-overview",
+      "status": "Live"
+    },
+    {
+      "id": "5",
+      "image": "../../assets/projects/3.png",
+      "category": "websites",
+      "name": "Primed Pharmacy",
+      "shortDescription": "Online Aesthetics Pharmacy for Weight Loss, Obesity & Diabetes and Aesthetics related medicines",
+      "description": "<p>Contributed to the aesthetic appeal of the Online Aesthetics Pharmacy platform through visually appealing UI screens. Developed visually stunning and intricate UI screens using Angular.</p><p>Elevated user engagement with the integration of advanced video calling features via Twilio.</p><p>Enhanced application performance by upgrading Angular to the latest version, ensuring optimal user experience.</p>",
+      "techStack": ["Angular", "Bootstrap", "SCSS", "Websocket", "Twilio Video Calling"],
+      "roles": ["Expert Frontend Developer"],
+      "url": "https://www.primedpharmacy.com/",
+      "status": "Live"
+    },
+    {
+      "id": "2",
+      "image": "../../assets/projects/8.png",
+      "category": "apps",
+      "name": "Stoodo",
+      "shortDescription": "Teachers and Students collaboration app for Web, Android and iOS platforms",
+      "description": "<p>Centered development efforts around the needs and preferences of teachers and students. Gathered and implemented user feedback for continuous improvement.</p><p>Designed and implemented a scalable architecture to accommodate future growth. Implemented the app across Web, Android, and iOS platforms for maximum reach. Utilized Ionic Angular to achieve a unified and consistent user experience across devices.</p><p>Prioritized user experience, ensuring a visually appealing and intuitive interface.&nbsp;Ensured adherence to coding standards for maintainability and collaboration.</p><p>Functioned as a tech co-founder, providing strategic direction for the project. Collaborated with cross-functional teams to align tech decisions with business goals</p>",
+      "techStack": [
+        "Ionic",
+        "Angular",
+        "Node Js",
+        "Metero JS",
+        "Mongo DB",
+        "Microservices",
+        "AWS",
+        "Ghost",
+        "Google Analytics",
+        "OAuth Integration"
+      ],
+      "roles": ["Tech Co-founder", "Developer"],
+      "url": "",
+      "status": "Closed"
+    }
+  ],
+  "testimonialsIntroData": {
+    "title": "Testimonials",
+    "subtitle": "People I've worked with have said some nice things..."
+  },
+  "testimonialsData": [
+    {
+      "author": "Thirunavukarasu Shanmugasundaram",
+      "jobTitle": "Director @ Dartexon & Co-founder @ Seed Incublt",
+      "testimonial": "Veena has worked for me in many projects, and I've had the pleasure of knowing her for close to a year, during which Veena had done such wonderful work for us. She prepares, tracks, develops, and tests the software requirements very efficiently. She would be an asset to any team and comes with my heartfelt recommendation"
+    },
+    {
+      "author": "Jorge Andrés Osorio Socha",
+      "jobTitle": "Management Consultant",
+      "testimonial": "I worked with Veena in a very challenging project for a demanding customer. Veena was working as software engineer in a team of more than 10 people. Very soon she showed the quality of her work be delivering very high quality software but also undertaking important technical challenges with new technologies we were trying out in the project. On top of this, she is a team player who is always willing to help others and go the extra mile to make things happen even under huge time pressure. I do not hesitate to recommend Veena for any senior software engineer assignment."
+    },
+    {
+      "author": "Rajneesh Mishra",
+      "jobTitle": "Lead Engineer",
+      "testimonial": "It was a pleasure to work together with Veena, who is an excellent tech lead. Her hands-on strategy to modern day technology and strong character won her the respect of the team. Certainly would recommend her as tech lead."
+    },
+    {
+      "author": "Fabian Figueroa",
+      "jobTitle": "Senior Frontend Developer",
+      "testimonial": "I’ve worked with Veena in a mobile project from scratch , I would say she’s a very good profesional , very good at soft and hard skills. It was a nice experience working with her "
+    },
+    {
+      "author": "Vladislav Stanic",
+      "jobTitle": "Senior Frontend Developer",
+      "testimonial": "Veena is very hard working and responsible and very high skilled developer. She can guide juniors and work closely with her senor colleagues. She is always open to give suggestions and receive feedback, and to keep positive atmosphere in the team."
+    }
+  ],
+  "proposalItemData": {
+    "title": "Start a project",
+    "subtitle": "Interested in working together? We should queue up a time to chat.",
+    "buttonText1": "Send Message",
+    "buttonUrl1": "https://topmate.io/veena_pd/589606/",
+    "buttonIcon1": "handshake",
+    "buttonText2": "Send an Email",
+    "buttonUrl2": "mailto:vpd.careers@gmail.com",
+    "buttonIcon2": "mail"
+  },
+  "calloutData": {
+    "title": "Interested in collaborating with me?",
+    "subtitle": "I’m always open to discussing product development work or partnership opportunities.",
+    "buttonText": "Start a conversation",
+    "buttonUrl": "https://topmate.io/veena_pd/589606/",
+    "buttonIcon": "chat"
+  },
+  "extracurricularIntroData": {
+    "title": "Content Creator",
+    "subtitle": "Apart from app development I do..."
+  },
+  "extracurricularData": [
+    {
+      "id": "1",
+      "image": "../../assets/youtube-channel.png",
+      "name": "Youtube Channel",
+      "shortDescription": "Youtube: Dive deep into the core technologies of web development and hybrid app development",
+      "url": "https://www.youtube.com/channel/UC_G9-X8CcOB5Yt6t4XsZyGw",
+      "status": "Live"
+    },
+    {
+      "id": "2",
+      "image": "../../assets/blog.png",
+      "name": "Blog",
+      "shortDescription": "Blog: Covers diverse topics to cater to tech enthusiasts, professionals, and novices alike",
+      "url": "https://medium.com/@veenapd",
+      "status": "Live"
+    },
+    {
+      "id": "3",
+      "image": "../../assets/veenslibrary.png",
+      "name": "Veens Library",
+      "shortDescription": "Veens Library: A transformative reading of self-help books, embracing growth through books",
+      "url": "https://www.instagram.com/veenslibrary/",
+      "status": "Live"
+    }
+  ]
+}

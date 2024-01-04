@@ -1,0 +1,30 @@
+.testimonial-card {
+  width: calc(380px + 28 * (100vw - 300px) / 1620);
+  padding: 1rem;
+  margin: 0rem 0.5rem;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 #baa4e0, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+
+  .mat-mdc-card-header,
+  .mat-mdc-card-title,
+  .mat-mdc-card-subtitle {
+    justify-content: center;
+    text-align: center;
+  }
+  .mat-mdc-card-content {
+    text-align: center;
+    .mat-icon {
+      height: 42px;
+      width: 42px;
+    }
+    .material-icons {
+      font-size: 42px;
+    }
+    p {
+      font-size: calc(18px + 3 * (100vw - 300px) / 1620);
+      font-weight: 300;
+    }
+  }
+}

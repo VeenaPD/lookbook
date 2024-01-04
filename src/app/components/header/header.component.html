@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span class="app-name"> {{ headerData.title }} </span>
+  <span class="header-spacer"></span>
+  <a
+    *ngFor="let button of headerData.buttons"
+    mat-flat-button
+    color="primary"
+    href="{{ button.url }}"
+  >
+    <mat-icon> {{ button.icon }} </mat-icon>
+    {{ button.text }}
+  </a>
+</mat-toolbar>

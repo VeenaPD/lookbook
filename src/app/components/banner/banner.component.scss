@@ -1,0 +1,73 @@
+.banner-img {
+  background-image: url("../../../assets/banner-image-vee.png");
+  background-size: cover;
+  height: 100%;
+  z-index: 1;
+}
+
+.banner-text-block {
+  margin-top: -40%;
+  margin-left: 7%;
+  margin-right: 45%;
+  position: absolute;
+}
+
+.banner-text-title {
+  font-size: calc(22px + 28 * (100vw - 300px) / 1620);
+  line-height: calc(36px + 28 * (100vw - 300px) / 1620);
+  font-weight: bold;
+}
+.banner-text-subtitle {
+  color: #673ab7;
+  font-size: calc(20px + 3 * (100vw - 300px) / 1620);
+}
+
+.buttons-container {
+  display: flex;
+  a {
+    margin: 0.5rem;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) until Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .banner-img {
+    height: 40%;
+  }
+  .banner-text-block {
+    margin-top: -47%;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    a {
+      margin: 1rem 0rem 0rem;
+    }
+  }
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .banner-img {
+    background-image: url("../../../assets/banner-image-vee-mob.png");
+    background-position: center;
+    height: 45%;
+  }
+  .banner-text-block {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    a {
+      margin: 1rem 0rem 0rem;
+    }
+  }
+}

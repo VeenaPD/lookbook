@@ -1,0 +1,40 @@
+<mat-card class="project-card">
+  <div class="image-container" *ngIf="projectItem.image">
+    <img mat-card-image src="{{ projectItem.image }}" alt="Photo of a Inu" />
+  </div>
+  <div class="icon-container" *ngIf="projectItem.icon">
+    <mat-icon> {{ projectItem.icon }} </mat-icon>
+  </div>
+  <div class="status-label" *ngIf="projectItem.status == 'In Development'">
+    {{ projectItem.status }}
+  </div>
+
+  <mat-card-header *ngIf="projectItem.title">
+    <mat-card-title> {{ projectItem.title }} </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{ projectItem.shortDescription }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions *ngIf="projectItem.url || projectItem.status">
+    <a
+      class="btn-style"
+      mat-stroked-button
+      color="primary"
+      href="/project/{{ projectItem.id }}"
+      *ngIf="projectItem.status !== 'In Development'"
+    >
+      <mat-icon>open_in_new</mat-icon> Know More
+    </a>
+    <a
+      class="btn-style"
+      mat-stroked-button
+      disabled="true"
+      *ngIf="projectItem.status === 'In Development'"
+    >
+      <mat-icon>construction</mat-icon>
+      {{ projectItem.status }}</a
+    >
+  </mat-card-actions>
+</mat-card>

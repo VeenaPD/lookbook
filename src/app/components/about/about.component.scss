@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 10% 25% 4%;
+  text-align: center;
+}
+.title {
+  font-size: calc(18px + 28 * (100vw - 300px) / 1620);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: calc(32px + 28 * (100vw - 300px) / 1620);
+}
+.desc {
+  font-size: calc(16px + 3 * (100vw - 300px) / 1620);
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .wrapper {
+    padding: 4rem 2rem;
+  }
+}

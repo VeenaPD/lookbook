@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(@angular/material/prebuilt-themes/deeppurple-amber.css);
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+hr {
+  border: 1px solid whitesmoke;
+  margin: 0px;
+}
+
+.space {
+  margin-right: 1rem;
+}
+
+.btn-style {
+  padding: 1.5rem !important;
+}
+
+@keyframes ripple1 {
+  0% {
+    transform: scale(5.5);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(8.5);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple2 {
+  0% {
+    transform: scale(3.5);
+  }
+  100% {
+    transform: scale(5.5);
+  }
+}
+@keyframes ripple3 {
+  0% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(3.5);
+  }
+}

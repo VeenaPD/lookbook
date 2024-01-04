@@ -1,0 +1,86 @@
+.project-card {
+  text-align: center;
+  width: calc(347px + 28 * (100vw - 300px) / 1620);
+  margin: 0.5rem;
+  box-shadow: 0 4px 8px 0 #baa4e0, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  height: 90%;
+
+
+  position: relative;
+  overflow: hidden;
+
+  .status-label {
+    position: absolute;
+    background-color: cyan;
+    padding: 0.3rem 4rem;
+    transform: rotateZ(-45deg) translateY(5rem);
+    /* clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%); */
+    left: -30%;
+    top: -3%;
+  }
+
+  .image-container {
+    overflow: hidden;
+  }
+  .mat-mdc-card-image {
+    height: 290px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  .mat-mdc-card-image:hover {
+    transform: scale(1.5);
+  }
+
+  .icon-container {
+    padding: 1rem 0rem 0rem;
+    .mat-icon {
+      color: #673ab7;
+      height: 54px;
+      width: 54px;
+    }
+  
+    .material-icons {
+      font-size: 54px;
+    }
+  }
+
+  .mat-mdc-card-header {
+    justify-content: center;
+    .mat-mdc-card-title {
+      font-size: calc(18px + 3 * (100vw - 300px) / 1620);
+      font-weight: bold;
+    }
+  }
+  .mat-mdc-card-content {
+    font-size: calc(14px + 3 * (100vw - 300px) / 1620);
+    padding: 1rem 1rem 0rem;
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .mdc-card__actions {
+    display: grid;
+    padding: 0rem 2rem 2rem;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) until Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .project-card {
+    width: calc(382px + 28 * (100vw - 300px) / 1620);
+  }
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .project-card {
+    width: calc(387px + 28 * (100vw - 300px) / 1620);
+    margin: 0px;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+<div class="footer-block">
+  <h1 class="title">{{ footerData.title }}</h1>
+  <div class="footer-button-row">
+    <div class="footer-flex-container">
+      <div
+        class="footer-button-container"
+        *ngFor="let button of footerData.buttons"
+      >
+        <a mat-button color="accent" href="{{ button.url }}" target="_blank">
+          {{ button.text }}
+        </a>
+      </div>
+    </div>
+
+    <p class="copyright-text">
+      © <span id="year-text">{{ computeCurrentYear() }}</span>
+      {{ footerData.copyrightText }}
+    </p>
+  </div>
+</div>

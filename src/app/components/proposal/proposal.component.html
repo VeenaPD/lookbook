@@ -1,0 +1,34 @@
+<div class="wrapper"></div>
+<div class="text-block">
+  <mat-card class="proposal-card">
+    <mat-card-header>
+      <mat-card-title>
+        <h1 class="title">{{ proposalItem.title }}</h1></mat-card-title
+      >
+    </mat-card-header>
+    <mat-card-content>
+      <p class="desc">{{ proposalItem.subtitle }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <a
+        class="btn-style"
+        mat-raised-button
+        color="primary"
+        href="{{ proposalItem.buttonUrl1 }}"
+        target="_blank"
+        ><mat-icon> {{ proposalItem.buttonIcon1 }} </mat-icon>
+        {{ proposalItem.buttonText1 }}</a
+      >
+      <span class="space"></span>
+      <a
+        class="btn-style"
+        mat-raised-button
+        color="accent"
+        href="{{ proposalItem.buttonUrl2 }}"
+        target="_blank"
+        ><mat-icon> {{ proposalItem.buttonIcon2 }} </mat-icon>
+        {{ proposalItem.buttonText2 }}</a
+      >
+    </mat-card-actions>
+  </mat-card>
+</div>

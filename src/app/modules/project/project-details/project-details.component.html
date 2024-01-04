@@ -1,0 +1,43 @@
+<div class="wrapper" *ngIf="projectData">
+  <app-animated-bg></app-animated-bg>
+
+  <div class="image-wrapper">
+    <img src="{{ projectData.image }}" alt="project-image" />
+    <a
+      *ngIf="projectData.url"
+      class="btn-style"
+      mat-raised-button
+      color="primary"
+      href="{{ projectData.url }}"
+      target="_blank"
+      ><mat-icon> launch </mat-icon> Live link</a
+    >
+  </div>
+
+  <app-animated-bg-right></app-animated-bg-right>
+
+  <div class="text-wrapper">
+    <h2 class="title">Project Overview</h2>
+    <p class="desc">{{ projectData.shortDescription }}</p>
+    <p class="desc" [innerHTML]="projectData.description"></p>
+
+    <div *ngIf="projectData.roles">
+      <h2 class="title">Roles</h2>
+      <mat-chip-set class="desc" aria-label="Dog selection">
+        <mat-chip *ngFor="let role of projectData.roles">
+          {{ role }}
+        </mat-chip>
+      </mat-chip-set>
+    </div>
+
+    <div *ngIf="projectData.techStack">
+      <h2 class="title">Tech Stack</h2>
+      <mat-chip-set class="desc-chips" aria-label="Dog selection">
+        <mat-chip *ngFor="let tech of projectData.techStack">
+          {{ tech }}
+        </mat-chip>
+      </mat-chip-set>
+    </div>
+  </div>
+  <app-animated-bg></app-animated-bg>
+</div>

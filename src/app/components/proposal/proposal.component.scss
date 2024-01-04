@@ -1,0 +1,99 @@
+.wrapper {
+  background-image: url("../../../assets/VEENA\ P\ D.png");
+  background-position: right;
+  height: 100%;
+}
+.proposal-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-block {
+  margin-top: -30%;
+  margin-right: 16px;
+  margin-left: 50%;
+  position: absolute;
+
+  .title {
+    color: #673ab7;
+    font-size: calc(18px + 28*(100vw - 300px)/1620);
+    font-weight: bold;
+  }
+  .desc {
+    font-size: calc(16px + 3*(100vw - 300px)/1620);
+  }
+
+  .mat-mdc-card {
+    padding: 4rem;
+  }
+  .mat-mdc-card-header {
+    justify-content: center;
+  }
+  .mat-mdc-card-content {
+    justify-content: center;
+    padding: 0px 16px 16px;
+  }
+  .mdc-card__actions {
+    justify-content: center;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) until Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .wrapper {
+    background-position: center;
+    height: 75%;
+  }
+  .text-block {
+    margin: -55% 1rem 1rem;
+    position: relative;
+
+    .mat-mdc-card {
+      padding: 4rem 2rem;
+    }
+    .mat-mdc-card-header {
+      justify-content: center;
+    }
+    .mat-mdc-card-content {
+      padding: 0px 16px 16px;
+      text-align: center;
+    }
+
+    .mdc-card__actions {
+      flex-direction: column;
+      .mdc-button {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .wrapper {
+    display: none;
+  }
+  .text-block {
+    background-image: url("../../../assets/VEENA\ P\ D.png");
+    background-position: center;
+    padding: 1rem;
+    position: relative;
+    margin: 0px;
+
+    .mat-mdc-card {
+      padding: 4rem 2rem;
+    }
+    .mat-mdc-card-header {
+      justify-content: center;
+    }
+    .mat-mdc-card-content {
+      padding: 0px 16px 16px;
+      text-align: center;
+    }
+
+    .mdc-card__actions {
+      flex-direction: column;
+      .mdc-button {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

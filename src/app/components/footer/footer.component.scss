@@ -1,0 +1,44 @@
+.footer-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 7%;
+}
+
+.footer-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer styles */
+.footer-block {
+  background-color: #673ab7;
+  padding: 5% 25%;
+  text-align: center;
+}
+
+.copyright-text {
+  color: #fff;
+  font-size: calc(16px + 3*(100vw - 300px)/1620);
+  margin-top: 32px;
+}
+
+.title {
+  font-size: calc(18px + 18*(100vw - 300px)/1620);
+  font-weight: 400;
+  margin: 2rem auto;
+  opacity: 0.8;
+  color: #fff;
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .footer-block {
+    padding: 10%;
+  }
+  .footer-flex-container {
+    display: block;
+  }
+  .footer-button-container {
+    margin-bottom: 8px;
+  }
+}

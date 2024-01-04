@@ -1,0 +1,31 @@
+<div class="banner-img"></div>
+<div class="banner-text-block">
+  <h1 class="banner-text-title">
+    {{ bannerData.title }}
+  </h1>
+
+  <h2 class="banner-text-subtitle">
+    {{ bannerData.subtitle }}
+  </h2>
+  <br />
+  <mat-card-actions class="buttons-container">
+    <a
+      class="btn-style"
+      mat-raised-button
+      color="primary"
+      href="{{ bannerData.buttonUrl1 }}"
+      target="_blank"
+      ><mat-icon> {{ bannerData.buttonIcon1 }} </mat-icon>
+      {{ bannerData.buttonText1 }}</a
+    >
+    <a
+      class="btn-style"
+      mat-raised-button
+      color="accent"
+      href="{{ bannerData.buttonUrl2 }}"
+      ><mat-icon> {{ bannerData.buttonIcon2 }} </mat-icon>
+      {{ bannerData.buttonText2 }}</a
+    >
+  </mat-card-actions>
+</div>
+<hr />

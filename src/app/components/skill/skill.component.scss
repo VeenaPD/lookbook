@@ -1,0 +1,36 @@
+.skill-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  width: calc(362px + 28 * (100vw - 300px) / 1620);
+  margin: 0.5rem;
+
+  .mat-mdc-card-header {
+    color: #673ab7;
+    padding: 2rem 0rem 1rem;
+    justify-content: center;
+    .mat-mdc-card-title {
+      font-size: calc(20px + 3 * (100vw - 300px) / 1620);
+      font-weight: bold;
+    }
+  }
+  .mat-mdc-card-content {
+    font-size: calc(16px + 3 * (100vw - 300px) / 1620);
+    padding: 16px;
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .mat-mdc-card-actions {
+    padding: 0rem 2rem 3rem;
+    justify-content: center;
+  }
+}
+
+/* Small devices such as large phones (640px and up) Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 1023px) {
+  .skill-card {
+    width: calc(382px + 28 * (100vw - 300px) / 1620);
+    margin: 1rem;
+  }
+}

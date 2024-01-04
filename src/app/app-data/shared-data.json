@@ -1,0 +1,47 @@
+{
+  "headerData": {
+    "title": "VPD",
+    "buttons": [
+      {
+        "text": "Home",
+        "url": "/home",
+        "icon": "home"
+      },
+      {
+        "text": "Mentorship",
+        "url": "/mentorship",
+        "icon": "people"
+      }
+    ]
+  },
+  "footerData": {
+    "title": "Empowering Digital Excellence",
+    "buttons": [
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/veena-pd"
+      },
+      {
+        "text": "Youtube",
+        "url": "https://www.youtube.com/channel/UC_G9-X8CcOB5Yt6t4XsZyGw"
+      },
+      {
+        "text": "Topmate",
+        "url": "https://topmate.io/veena_pd"
+      },
+      {
+        "text": "Email",
+        "url": "mailto:vpd.careers@gmail.com"
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/VeenaPD"
+      },
+      {
+        "text": "Instagram",
+        "url": "https://www.instagram.com/veenslibrary"
+      }
+    ],
+    "copyrightText": "by Veena P D, Banglore | All Rights Reserved."
+  }
+}

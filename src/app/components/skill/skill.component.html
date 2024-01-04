@@ -1,0 +1,22 @@
+<mat-card class="skill-card" layout-align="center center">
+  <mat-card-header>
+    <mat-card-title>{{ skillData.title }} </mat-card-title>
+  </mat-card-header>
+  <hr>
+  <mat-card-content>
+    <br>
+    <p *ngFor="let item of skillData.list">{{ item }}</p>
+  </mat-card-content>
+  <mat-card-actions *ngIf="skillData.button">
+    <a
+      class="btn-style"
+      mat-raised-button
+      color="primary"
+      href="{{ skillData.button.url }}"
+      target="_blank"
+      >
+      <!-- <mat-icon> {{ skillData.buttonIcon }} </mat-icon> -->
+      {{ skillData.button.text }}</a
+    >
+  </mat-card-actions>
+</mat-card>

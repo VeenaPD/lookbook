@@ -1,0 +1,42 @@
+<app-animated-bg></app-animated-bg>
+<app-banner [bannerData]="data.bannerData"></app-banner>
+
+<app-about [aboutTemplateData]="data.introData"></app-about>
+<app-animated-bg-right></app-animated-bg-right>
+<div class="blocks-wrapper">
+  <app-skill
+    *ngFor="let skill of data.skillsData"
+    [skillData]="skill"
+  ></app-skill>
+</div>
+<hr />
+
+<app-animated-bg></app-animated-bg>
+<app-about [aboutTemplateData]="data.portfolioIntroData"></app-about>
+<app-animated-bg-right></app-animated-bg-right>
+<div class="project-blocks-wrapper">
+  <app-project-list-item
+    *ngFor="let project of data.portfolioData"
+    [projectItem]="project"
+  ></app-project-list-item>
+</div>
+<app-animated-bg></app-animated-bg>
+<app-callout [calloutTemplateData]="data.calloutData"></app-callout>
+
+<hr />
+
+<app-about [aboutTemplateData]="data.testimonialsIntroData"></app-about>
+<app-animated-bg-right></app-animated-bg-right>
+<div class="blocks-wrapper testimonial-block">
+  <div class="scroll-wrap">
+    <div class="scrolling-wrapper">
+      <app-testimonial
+        *ngFor="let testimonial of data.testimonialsData"
+        [testimonialData]="testimonial"
+      ></app-testimonial>
+    </div>
+  </div>
+</div>
+<hr />
+
+<app-proposal [proposalItem]="data.proposalItemData"></app-proposal>
